@@ -1,4 +1,6 @@
 
+let myLibray = [];
+
 function Book (title, author, pages, read) {
     this.title = title;
     this.author = author;
@@ -9,5 +11,13 @@ function Book (title, author, pages, read) {
     }
 }
 
-const book = new Book("GOT", "George RR Martin", 456 + " pages", "not read yet!");
-console.log(book.bookInfo());
+function addBookToLibrary () {
+    while(true) {
+        let userInput = prompt("add a new book");
+        if (userInput === 'q' || userInput === null) {
+            break;
+        }
+
+        myLibray.push(userInput);
+    }
+}
