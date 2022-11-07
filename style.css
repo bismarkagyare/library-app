@@ -1,5 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'open sans', sans-serif;
+  background-color: #845ec2;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: 120px;
+  background-color: #fbeaff;
+}
+
+header h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
 }
