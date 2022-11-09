@@ -27,3 +27,29 @@ header h2 {
   font-weight: 600;
   text-transform: capitalize;
 }
+
+form{
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+
+th {
+  width: 150px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
