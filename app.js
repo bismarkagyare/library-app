@@ -10,18 +10,6 @@ class Book {
 
 class UI {
   static displayBooks () {
-    // const storedBooks = [
-    //   {
-    //     title: "Game of Thrones",
-    //     author: "George RR Martin", 
-    //     isbn: 12345
-    //   },
-    //   {
-    //     title: "Harry Potter",
-    //     author: "JK Rowling", 
-    //     isbn: 87473
-    //   }
-    // ];
 
     const books = Store.getBooks();
     books.forEach(book => {
