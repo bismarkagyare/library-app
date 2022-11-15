@@ -28,6 +28,10 @@ header h2 {
   text-transform: capitalize;
 }
 
+header i {
+  margin-right: 1rem;
+}
+
 form{
   max-width: 600px;
   margin: 0 auto;
